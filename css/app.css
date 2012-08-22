@@ -1,8 +1,15 @@
+@font-face {
+  font-family: 'ITCKrist';
+  src: url('http://fontsforweb.com/public/fonts/1047/ITCKrist.eot');
+  src: local('ITCKrist'), url('http://fontsforweb.com/public/fonts/1047/ITCKrist.ttf') format('truetype');
+}
+
+
 body {
   padding-top: 20px;
   padding-bottom: 40px;
-  background: url('../img/bg_tile.png') repeat;
-  font-family: "Kristen ITC";
+  background: url('../img/background.png') top left repeat;
+  font-family: "ITCKrist";
 }
 .sidebar-nav {
   padding: 9px 0;
@@ -25,7 +32,7 @@ body {
   color: #114B9E;
 }
   
-.nav >li > a{
+.Nav >li > a{
   color: #999;
 }
 .nav > li > a:hover{
@@ -130,18 +137,19 @@ body {
 .lottery{
   border-radius: 0px;
   margin-left: 0px;
-  margin-top: 30px;
   background: #A8B5CB;
+  position: relative;
 }
 
 .lottery a.brand{
   color: #1140BE;
 }
 
-.lottery {
-  position: relative;
-}
+#lottery-bar{
+  margin-bottom: 100px;
+  margin-top: 100px;
 
+}
 
 #sticky{
   width: 199px;
@@ -161,4 +169,23 @@ body {
   width: 141px;
   top: 30px;
   right: 20px
+}
+
+#ideas{
+  background: #ccc;
+  border-radius: 15px;
+  border: 2px solid #999;  
+  padding: 15px;
+}
+
+#ideas h2{
+  color: #851204;
+  padding-bottom: 20px;
+}
+#ideas h3{
+  color: #114B9E;
+}
+
+#ideas p{
+  padding-bottom: 10px;
 }
