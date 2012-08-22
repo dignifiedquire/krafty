@@ -41,3 +41,92 @@ body {
   padding-left: 10px;
   vertical-align: bottom;
 }
+
+.lottery{
+  background: #A8B5CB;
+  border-radius: 0px;
+  margin-left: 0px
+}
+
+.lottery a.brand{
+  color: #1140BE;
+}
+
+.related-videos.nav-pills.nav-stacked > li > a{
+  display: block;
+}
+
+.desc-text{
+  padding-left: 10px;
+  width: 120px;
+  float: left;
+}
+
+.hr {
+  margin-bottom: 50px;
+  background: url('../img/hr.png') left bottom no-repeat;
+
+}
+
+
+/* Naviation Top */
+
+#generator > a{
+  background: url('../img/generator.png') left top no-repeat;
+  width: 120px;
+  height: 120px;
+  
+}
+#generator > a:hover{
+  background: url('../img/generator_a.png') left top no-repeat;
+}
+
+#forum > a{
+  background: url('../img/forum.png') left top no-repeat;
+  width: 120px;
+  height: 120px;
+  padding-left: 0px;
+  margin-left: -60px;
+}
+#forum > a:hover{
+  background: url('../img/forum_a.png') left top no-repeat;
+}
+
+
+#vow > a{
+  background: url('../img/vow.png') left top no-repeat;
+  width: 120px;
+  height: 120px;
+  padding-left: 0px;
+  margin-left: -60px;
+}
+#vow > a:hover{
+  background: url('../img/vow_a.png') left top no-repeat;
+}
+
+#archiv > a{
+  background: url('../img/archiv.png') left top no-repeat;
+  width: 120px;
+  height: 120px;
+  padding-left: 0px;
+  margin-left: -60px;
+}
+#archiv > a:hover{
+  background: url('../img/archiv_a.png') left top no-repeat;
+}
+
+
+#generator > a > span, #forum > a > span, #vow > a > span, #archiv > a > span {
+  display: none;
+}
+
+
+.brand.logo-long{
+  padding: 0px;
+  padding-top: 40px;
+  width: 250px;
+}
+
+.logo-long > img{
+  vertical-align: bottom;
+}
