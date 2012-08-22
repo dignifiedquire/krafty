@@ -8,6 +8,7 @@ body {
   padding: 9px 0;
 }
 
+
 #logo{
   width: 175px;
   margin-left: auto;
@@ -24,8 +25,12 @@ body {
   color: #114B9E;
 }
   
-.nav a{
+.nav >li > a{
   color: #999;
+}
+.nav > li > a:hover{
+  background: none;
+  color: #851204;
 }
 
 .navbar-inner{
@@ -42,15 +47,6 @@ body {
   vertical-align: bottom;
 }
 
-.lottery{
-  background: #A8B5CB;
-  border-radius: 0px;
-  margin-left: 0px
-}
-
-.lottery a.brand{
-  color: #1140BE;
-}
 
 .related-videos.nav-pills.nav-stacked > li > a{
   display: block;
@@ -129,4 +125,40 @@ body {
 
 .logo-long > img{
   vertical-align: bottom;
+}
+
+.lottery{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-top: 30px;
+  background: #A8B5CB;
+}
+
+.lottery a.brand{
+  color: #1140BE;
+}
+
+.lottery {
+  position: relative;
+}
+
+
+#sticky{
+  width: 199px;
+  position: absolute;
+  bottom: -80px;
+  right: 10px;
+}
+
+#sticky > .faber{
+  width: 158px;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+}
+#sticky > .week{
+  position: absolute;
+  width: 141px;
+  top: 30px;
+  right: 20px
 }
