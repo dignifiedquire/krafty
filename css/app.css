@@ -1,7 +1,43 @@
 body {
   padding-top: 20px;
   padding-bottom: 40px;
+  background: url('../img/bg_tile.png') repeat;
+  font-family: "Kristen ITC";
 }
 .sidebar-nav {
   padding: 9px 0;
+}
+
+#logo{
+  width: 175px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  
+}
+
+#logo a{
+  display: block;
+}
+
+.nav>.nav-header{
+  color: #114B9E;
+}
+  
+.nav a{
+  color: #999;
+}
+
+.navbar-inner{
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+
+
+.nav-header img{
+  display: inline;
+  padding-left: 10px;
+  vertical-align: bottom;
 }
